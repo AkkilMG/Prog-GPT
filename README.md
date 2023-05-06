@@ -19,5 +19,21 @@ To run the chatbot locally, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/programming-language-chatbot.git
-   cd programming-language-chatbot
+   git clone https://github.com/your-username/Prog-GPT.git
+   cd Prog-GPT
+
+2. Install the required dependencies:
+   ```shell
+   pip install -r requirements.txt
+ 
+3.Set up your OpenAI API key:
+   * Sign up for an account at OpenAI (https://openai.com/).
+   * Generate an API key.
+   * Replace the placeholder YOUR_API_KEY in the code with your actual API key.
+
+4.Launch the chatbot:
+   ```shell
+   python test.py
+
+   
+   
